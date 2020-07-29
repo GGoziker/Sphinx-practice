@@ -22,6 +22,8 @@ sys.path.append(os.path.abspath('sphinxext'))
 project = 'intersphinx-practice'
 copyright = '2020, gg'
 author = 'gg'
+master_doc = 'index'
+
 
 
 # -- General configuration ---------------------------------------------------
