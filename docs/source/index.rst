@@ -7,7 +7,7 @@ Let's try linking to other sphinx projects:
 
 .. code:: rst
 
-   - :doc:`Link to quantconnect docs <using-quantconnect:1_Getting_Started/About_QC>`
+   - :doc:`Link to quantconnect docs <using-quantconnect:Getting_Started/About_QC>`
    - :doc:`sphinx:usage/extensions/intersphinx`
    - :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
    - :ref:`sphinx:ref-role`
@@ -15,7 +15,7 @@ Let's try linking to other sphinx projects:
 
 Result:
 
-- :doc:`Link to quantconnect docs <using-quantconnect:1_Getting_Started/About_QC>`
+- :doc:`Link to quantconnect docs <using-quantconnect:Getting_Started/About_QC>`
 - :doc:`sphinx:usage/extensions/intersphinx`
 - :doc:`Intersphinx <sphinx:usage/extensions/intersphinx>`
 - :ref:`sphinx:ref-role`
