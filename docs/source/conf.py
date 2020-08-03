@@ -19,9 +19,9 @@ sys.path.append(os.path.abspath('sphinxext'))
 
 # -- Project information -----------------------------------------------------
 
-project = 'intersphinx-practice'
-copyright = '2020, gg'
-author = 'gg'
+project = 'sphinx-demos'
+copyright = '2020, Gahl Goziker'
+author = 'Gahl Goziker'
 master_doc = 'index'
 
 
@@ -57,15 +57,15 @@ exclude_patterns = []
 #
 html_theme = 'sphinx_rtd_theme'
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
-html_theme_options = {
-    "sidebar_width": '240px',
-    "sticky_navigation": False,
-    "stickysidebar": True,
-    "stickysidebarscrollable": True,
-    "contribute": True,
-    "github_fork": "useblocks/groundwork",
-    "github_user": "useblocks",
-}
+# html_theme_options = {
+#     "sidebar_width": '240px',
+#     "sticky_navigation": False,
+#     "stickysidebar": True,
+#     "stickysidebarscrollable": True,
+#     "contribute": True,
+#     "github_fork": "useblocks/groundwork",
+#     "github_user": "useblocks",
+# }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+    border: 2px solid black;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <p id="codeSnippet">Hello! here's some text.</p>
+    <br>
+    <button type="button" id="changeLanguage" onclick="myFunction()">Click me</button>
+    <br><br>
+</div>
+
+<script>
+    var pythonText = "here is some code in Python!";
+    var cSharpText = "here is some code in C#!";
+    myFunction();
+
+    function myFunction() {
+      var codeSnippet = document.getElementById("codeSnippet");
+      var button = document.querySelector("#changeLanguage");
+
+      if (codeSnippet.innerHTML === pythonText) {
+        codeSnippet.innerHTML = cSharpText;
+        button.innerText = "Display code in Python";
+      } else {
+        codeSnippet.innerHTML = pythonText;
+        button.innerHTML = "Display code in C#";
+      }
+    }
+</script>
+
+</body>
+</html>
